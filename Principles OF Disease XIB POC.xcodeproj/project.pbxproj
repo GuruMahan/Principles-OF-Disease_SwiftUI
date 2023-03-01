@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		1877CFA129ADEA3E001F13E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1877CFA029ADEA3E001F13E1 /* AppDelegate.swift */; };
-		1877CFA329ADEA3E001F13E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1877CFA229ADEA3E001F13E1 /* SceneDelegate.swift */; };
-		1877CFA529ADEA3E001F13E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1877CFA429ADEA3E001F13E1 /* ViewController.swift */; };
-		1877CFA829ADEA3E001F13E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1877CFA629ADEA3E001F13E1 /* Main.storyboard */; };
 		1877CFAA29ADEA40001F13E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1877CFA929ADEA40001F13E1 /* Assets.xcassets */; };
 		1877CFAD29ADEA40001F13E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1877CFAB29ADEA40001F13E1 /* LaunchScreen.storyboard */; };
+		1877CFB629ADEA9E001F13E1 /* PrincipleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1877CFB429ADEA9E001F13E1 /* PrincipleViewController.swift */; };
+		1877CFB729ADEA9E001F13E1 /* PrincipleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1877CFB529ADEA9E001F13E1 /* PrincipleViewController.xib */; };
+		1877CFB929AE20E4001F13E1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1877CFB829AE20E4001F13E1 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1877CF9D29ADEA3E001F13E1 /* Principles OF Disease XIB POC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Principles OF Disease XIB POC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1877CFA029ADEA3E001F13E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1877CFA229ADEA3E001F13E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1877CFA429ADEA3E001F13E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1877CFA729ADEA3E001F13E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1877CFA929ADEA40001F13E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1877CFAC29ADEA40001F13E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1877CFAE29ADEA40001F13E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1877CFB429ADEA9E001F13E1 /* PrincipleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipleViewController.swift; sourceTree = "<group>"; };
+		1877CFB529ADEA9E001F13E1 /* PrincipleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrincipleViewController.xib; sourceTree = "<group>"; };
+		1877CFB829AE20E4001F13E1 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				1877CFA029ADEA3E001F13E1 /* AppDelegate.swift */,
-				1877CFA229ADEA3E001F13E1 /* SceneDelegate.swift */,
-				1877CFA429ADEA3E001F13E1 /* ViewController.swift */,
-				1877CFA629ADEA3E001F13E1 /* Main.storyboard */,
+				1877CFB429ADEA9E001F13E1 /* PrincipleViewController.swift */,
+				1877CFB829AE20E4001F13E1 /* TableViewCell.swift */,
+				1877CFB529ADEA9E001F13E1 /* PrincipleViewController.xib */,
 				1877CFA929ADEA40001F13E1 /* Assets.xcassets */,
 				1877CFAB29ADEA40001F13E1 /* LaunchScreen.storyboard */,
 				1877CFAE29ADEA40001F13E1 /* Info.plist */,
@@ -127,7 +127,7 @@
 			files = (
 				1877CFAD29ADEA40001F13E1 /* LaunchScreen.storyboard in Resources */,
 				1877CFAA29ADEA40001F13E1 /* Assets.xcassets in Resources */,
-				1877CFA829ADEA3E001F13E1 /* Main.storyboard in Resources */,
+				1877CFB729ADEA9E001F13E1 /* PrincipleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +138,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1877CFA529ADEA3E001F13E1 /* ViewController.swift in Sources */,
+				1877CFB929AE20E4001F13E1 /* TableViewCell.swift in Sources */,
 				1877CFA129ADEA3E001F13E1 /* AppDelegate.swift in Sources */,
-				1877CFA329ADEA3E001F13E1 /* SceneDelegate.swift in Sources */,
+				1877CFB629ADEA9E001F13E1 /* PrincipleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1877CFA629ADEA3E001F13E1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1877CFA729ADEA3E001F13E1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1877CFAB29ADEA40001F13E1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +284,6 @@
 				INFOPLIST_FILE = "Principles OF Disease XIB POC/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +311,6 @@
 				INFOPLIST_FILE = "Principles OF Disease XIB POC/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
